@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Biliary Tract Quiz App</string>
+    <string name="answer1">bile</string>
+    <string name="answer4">gallstones</string>
+    <string name="correct">correct!</string>
+    <string name="incorrect">incorrect.</string>
+</resources>

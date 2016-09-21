@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8C000000"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QuestionHeaderFont"
+                android:text="Question 1: Fill in the Blanks" />
+
+            <TextView
+                style="@style/QuestionFont"
+                android:layout_margin="8dp"
+                android:text="The biliary tract, (biliary tree or biliary system) refers to the liver, gall bladder and bile ducts, and how they work together to make, store and secrete ______." />
+
+            <EditText
+                android:id="@+id/editTxtQuestion1"
+                style="@style/EditTextFont" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/correct_answer1"
+                    style="@style/correctAnswer" />
+
+                <TextView
+                    android:id="@+id/incorrect_answer1"
+                    style="@style/incorrectAnswer" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/QuestionHeaderFont"
+                android:text="Question 2: Multiple Choice" />
+
+            <TextView
+                style="@style/QuestionFont"
+                android:text="Which part of the biliary tract is responsible for storing bile." />
+
+            <ImageView
+                android:id="@+id/biliary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="biliary tract image"
+                android:scaleType="fitCenter"
+                android:src="@drawable/biliary_system" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:id="@+id/radioBtnQuestion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion2A"
+                        style="@style/RadioButtonFont"
+                        android:layout_marginTop="16dp"
+                        android:text="Liver(#10/#11)" />
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion2B"
+                        style="@style/RadioButtonFont"
+                        android:text="Spleen(#12) " />
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion2C"
+                        style="@style/RadioButtonFont"
+                        android:text="Stomach(#14)" />
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion2D"
+                        style="@style/RadioButtonFont"
+                        android:layout_marginBottom="16dp"
+                        android:text="Gallbladder(#9)" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/correct_answer2"
+                    style="@style/correctAnswer" />
+
+                <TextView
+                    android:id="@+id/incorrect_answer2"
+                    style="@style/incorrectAnswer" />
+            </RelativeLayout>
+
+            <TextView
+
+                style="@style/QuestionHeaderFont"
+                android:text="Question 3: Multiple Choice" />
+
+            <TextView
+                style="@style/QuestionFont"
+                android:layout_margin="8dp"
+                android:text="The term hepatobiliary refers to which two parts of the biliary tract?" />
+
+            <CheckBox
+                android:id="@+id/checkBtnQuestion3A"
+                style="@style/CheckButtonFont"
+                android:text="Liver" />
+
+            <CheckBox
+                android:id="@+id/checkBtnQuestion3B"
+                style="@style/CheckButtonFont"
+                android:text="Kidneys" />
+
+            <CheckBox
+                android:id="@+id/checkBtnQuestion3C"
+                style="@style/CheckButtonFont"
+                android:text="Bile ducts" />
+
+            <CheckBox
+                android:id="@+id/checkBtnQuestion3D"
+                style="@style/CheckButtonFont"
+                android:text="Pancreas" />
+
+            <CheckBox
+                android:id="@+id/checkBtnQuestion3E"
+                style="@style/CheckButtonFont"
+                android:layout_marginBottom="16dp"
+                android:text="Esophagus" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/correct_answer3"
+                    style="@style/correctAnswer" />
+
+                <TextView
+                    android:id="@+id/incorrect_answer3"
+                    style="@style/incorrectAnswer" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/QuestionHeaderFont"
+                android:text="Question 4: Fill in the Blanks" />
+
+            <TextView
+                style="@style/QuestionFont"
+                android:layout_margin="8dp"
+                android:text="Pressure inside in the biliary tree can give rise to _________ and lead to cirrhosis of the liver." />
+
+            <EditText
+                android:id="@+id/editTxtQuestion4"
+                style="@style/EditTextFont" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/correct_answer4"
+                    style="@style/correctAnswer" />
+
+                <TextView
+                    android:id="@+id/incorrect_answer4"
+                    style="@style/incorrectAnswer" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/QuestionHeaderFont"
+                android:text="Question 5: Multiple Choice" />
+
+            <TextView
+                style="@style/QuestionFont"
+                android:text="An obstruction of the biliary tract can result the yellowing of the skin and whites of the eyes. The term to describe this symptom is known as:" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion5A"
+                        style="@style/RadioButtonFont"
+                        android:layout_marginTop="16dp"
+                        android:text="Intestinal Tract Infection" />
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion5B"
+                        style="@style/RadioButtonFont"
+                        android:text="Biliary Colic" />
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion5C"
+                        style="@style/RadioButtonFont"
+                        android:text="Jaundice" />
+
+                    <RadioButton
+                        android:id="@+id/radioBtnQuestion5D"
+                        style="@style/RadioButtonFont"
+                        android:layout_marginBottom="16dp"
+                        android:text="Cirrhosis" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/correct_answer5"
+                    style="@style/correctAnswer" />
+
+                <TextView
+                    android:id="@+id/incorrect_answer5"
+                    style="@style/incorrectAnswer" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="124dp"
+                android:layout_marginRight="124dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorAccent"
+                android:onClick="onSubmit"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
