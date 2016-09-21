@@ -71,14 +71,17 @@ public class MainActivity extends AppCompatActivity {
     //This method checks to see if the correct boxes are clicked that matches with the appropriate answer
     public void checkAnswer3() {
         CheckBox question3Option1 = (CheckBox) findViewById(R.id.checkBtnQuestion3A);
+        CheckBox question3Option2 = (CheckBox) findViewById(R.id.checkBtnQuestion3B);
         CheckBox question3Option3 = (CheckBox) findViewById(R.id.checkBtnQuestion3C);
+        CheckBox question3Option4 = (CheckBox) findViewById(R.id.checkBtnQuestion3D);
+        CheckBox question3Option5 = (CheckBox) findViewById(R.id.checkBtnQuestion3E);
         String actualAnswer1 = question3Option1.getText().toString();
         String actualAnswer2 = question3Option3.getText().toString();
         TextView displayCorrectStatus = (TextView) findViewById(R.id.correct_answer3);
         TextView displayIncorrectStatus = (TextView) findViewById(R.id.incorrect_answer3);
         String message = displayIncorrectStatus.getText().toString();
 
-        if (question3Option1.isChecked() && question3Option3.isChecked()) {
+        if (question3Option1.isChecked() && question3Option3.isChecked() && !question3Option2.isChecked() && !question3Option4.isChecked() && !question3Option5.isChecked()) {
             numAnswersCorrect = numAnswersCorrect + 1;
             displayCorrectStatus.setVisibility(View.VISIBLE);
         } else {

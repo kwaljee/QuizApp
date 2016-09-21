@@ -1,7 +1,32 @@
 <resources>
     <string name="app_name">Biliary Tract Quiz App</string>
-    <string name="answer1">bile</string>
-    <string name="answer4">gallstones</string>
     <string name="correct">correct!</string>
     <string name="incorrect">incorrect.</string>
+    <string name="question_1_header">Question 1: Fill in the Blanks</string>
+    <string name="question_1">The biliary tract, (biliary tree or biliary system) refers to the liver, gall bladder and bile ducts, and how they work together to make, store and secrete ______.</string>
+    <string name="answer1">bile</string>
+    <string name="question_2_header">Question 2: Multiple Choice</string>
+    <string name="question_2">Which part of the biliary tract is responsible for storing bile.</string>
+    <string name="question_2a">Liver(#10/#11)</string>
+    <string name="question_2b">Spleen(#12)</string>
+    <string name="question_2c">Stomach(#14)</string>
+    <string name="question_2d">Gallbladder(#9)</string>
+    <string name="question_3_header">Question 3: Multiple Choice</string>
+    <string name="question_3">The term hepatobiliary refers to which two parts of the biliary tract?</string>
+    <string name="question_3a">Liver</string>
+    <string name="question_3b">Kidneys</string>
+    <string name="question_3c">Bile ducts</string>
+    <string name="question_3d">Pancreas</string>
+    <string name="question_3e">Esophagus</string>
+    <string name="question_4_header">Question 4: Fill in the Blanks</string>
+    <string name="question_4">Pressure inside in the biliary tree can give rise to _________ and lead to cirrhosis of the liver.</string>
+    <string name="answer4">gallstones</string>
+    <string name="question_5_header">Question 5: Multiple Choice</string>
+    <string name="question_5">An obstruction of the biliary tract can result the yellowing of the skin and whites of the eyes. The term to describe this symptom is known as:</string>
+    <string name="question_5a">Intestinal Tract Infection</string>
+    <string name="question_5b">Biliary Colic</string>
+    <string name="question_5c">Jaundice</string>
+    <string name="question_5d">Cirrhosis</string>
+    <string name="submit_btn">Submit</string>
+    <string name="biliary_tract_image_description">biliary tract image</string>
 </resources>
